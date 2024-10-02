@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.reyco.crawler.annotation.WebDriverConfiguration,\
+com.reyco.crawler.endpoint.CrawlerEndpointAutoConfiguration

@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.reyco.crawler.parser.core.autoconfiguration.CrawlerParserConfiguration
