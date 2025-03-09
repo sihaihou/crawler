@@ -9,6 +9,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import com.reyco.crawler.annotation.EnableCrawlerManagement;
+import com.reyco.crawler.parser.core.CrawlerPage;
+import com.reyco.crawler.parser.core.DefaultCrawlerPage;
+import com.reyco.crawler.parser.core.DefaultReconstruct;
+import com.reyco.crawler.parser.core.Reconstruct;
 import com.reyco.crawler.parser.core.match.DefaultMatcherFactory;
 import com.reyco.crawler.parser.core.match.MatcherFactory;
 import com.reyco.crawler.parser.core.parse.CrawlerPageLocateParser;
@@ -16,10 +20,6 @@ import com.reyco.crawler.parser.core.parse.CrawlerPageLocationParser;
 import com.reyco.crawler.parser.core.parse.DefaultCrawlerPageLocateParser;
 import com.reyco.crawler.parser.core.parse.DefaultCrawlerPageLocationParser;
 import com.reyco.crawler.parser.core.parse.DelegateCrawlerPageLocateParser;
-import com.reyco.crawler.paser.core.CrawlerPage;
-import com.reyco.crawler.paser.core.DefaultCrawlerPage;
-import com.reyco.crawler.paser.core.DefaultReconstruct;
-import com.reyco.crawler.paser.core.Reconstruct;
 
 
 @Configuration

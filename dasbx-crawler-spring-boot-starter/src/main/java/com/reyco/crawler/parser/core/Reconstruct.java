@@ -1,4 +1,4 @@
-package com.reyco.crawler.paser.core;
+package com.reyco.crawler.parser.core;
 
 import java.util.Map;
 
